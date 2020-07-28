@@ -1,0 +1,118 @@
+/* I have added some css for the html body tag */
+body {
+  font: 125%/1.5 "montserrat", Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/to-do.png");
+  background-size: contain;
+}
+
+/* adding underline under the text whis is in label tag */
+label {
+  text-decoration: underline;
+}
+
+/*  style for the  div element for list of items*/
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+
+}
+
+/* styling for to-do text box */
+#To-Do {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid #ff3c00;
+  border-top: 3px solid #ff3c00;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+/* styling for search box for weather */
+.search-box {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid #ff3c00;
+  border-top: 3px solid #ff3c00;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+
+}
+
+#button1 {
+  width: auto;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid #ff3c00;
+  border-top: 3px solid #ff3c00;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+#search {
+  width: auto;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 3px solid #ff3c00;
+  border-top: 3px solid #ff3c00;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  padding: 0;
+}
+
+.app-wrap {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+
+}
+
+/* styling for the box with the cute gif  */
+#drag {
+  float: left;
+  width: 220px;
+  height: 220px;
+  margin: 5px;
+  padding: 20px;
+  border: 2px solid rgb(235, 173, 2);
+  border-radius: 20px;
+
+}
+
+/* styling for the other box */
+#drop {
+  float: right;
+  width: 220px;
+  height: 220px;
+  margin: 5px;
+  padding: 20px;
+  border: 2px solid rgb(235, 173, 2);
+  border-radius: 20px;
+}

@@ -1,0 +1,51 @@
+<!--  Build a simple HTML template for the application -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link href="stylesheets.css" rel="stylesheet" />
+    <script src="main.js" async></script>
+</head>
+
+<body>
+    <!-- Created an <h1> element that features the name of my to-do list -->
+    <h1>My To-Do List</h1>
+    <div>
+        <input type="text" placeholder="Enter Your Items here..." id="To-Do" name="To-Do">
+        <button type="button" id="button1">ADD</button>
+    </div>
+
+    <!-- div element for all the list of items -->
+    <div id="flex-container">
+        <ul></ul>
+    </div>
+    <!-- div element for my third party API -->
+    <div class="app-wrap">
+        <div>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+            <button type="button" id="search">Search</button>
+        </div>
+        <div>
+            <section class="location">
+                <div class="city">California, US</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°c</span></div>
+                <div class="weather">Sunny</div>
+                <div class="hi-low">16°c / 22°c</div>
+            </div>
+        </div>
+    </div>
+    <!-- div elements for my browser API -->
+    <div id="drag" ondrop="drop(event)" ondragover="dropStart(event)">
+        <img id="drag1" src="images/gif.gif" draggable="true" ondragstart="drag(event)">
+    </div>
+    <div id="drop" ondrop="drop(event)" ondragover="dropStart(event)"></div>
+
+</body>
+
+</html>
